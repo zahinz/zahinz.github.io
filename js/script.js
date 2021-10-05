@@ -97,7 +97,6 @@ function darkMode() {
             // dark mode border
             for (let i = 0; i < darkBorder.length; i++) {
                 darkBorder[i].style.backgroundColor = 'white'
-                darkBorder[i].style.boxShadow = '0 0 10px #00000026'
             }
             // bootstrap next and prev icon
             for (let i = 0; i < nextSlidesIcon.length; i++) {

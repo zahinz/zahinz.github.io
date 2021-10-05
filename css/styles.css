@@ -134,6 +134,7 @@ p {
     padding: 40px;
     border-radius: 20px;
     background-color: var(--ter-color);
+    border: 1px solid var(--ter-color);
 }
 
 /**************************************/
@@ -447,8 +448,14 @@ left: calc(100% - 2rem);
 #section7 .connect-container .connect-list {
     width: 46%;
     margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+#section7 .connect-container .connect-list i {
+    font-size: 2rem;
+}
 
 
 
@@ -490,6 +497,10 @@ left: calc(100% - 2rem);
     }
 
     .dark-border {
+        padding: 30px;
+    }
+
+    .no-dark-border {
         padding: 30px;
     }
 
@@ -608,6 +619,23 @@ left: calc(100% - 2rem);
     }
 
 
+
+    /* SECTION 7 */
+
+    #section7 .connect-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0
+    }
+    
+    #section7 .connect-container .connect-list {
+        width: 100%;
+        margin-bottom: 1%;
+    }
+    
   
 
 
