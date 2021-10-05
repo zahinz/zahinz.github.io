@@ -2,6 +2,7 @@
     margin: 0; 
     padding: 0; 
     box-sizing: border-box;
+    transition: all 200ms;
 }
 
 :root {
@@ -264,6 +265,7 @@ left: calc(100% - 2rem);
 
 .companies-logo img {
     padding: 6%;
+    width: calc(100%/3);
 }
 
 
@@ -272,7 +274,7 @@ left: calc(100% - 2rem);
 #section3 {
     width: 100%;
     height: auto;
-    margin-bottom: var(--section-bottom-margin)
+    margin-bottom: var(--section-bottom-margin);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -283,7 +285,7 @@ left: calc(100% - 2rem);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--pri-color);
+    background-color: var(--ter-color);
     border-radius: 20px;
 }
 
