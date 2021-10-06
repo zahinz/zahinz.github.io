@@ -193,8 +193,8 @@ nav .topnav .content i {
 
 @media (max-width: 450px) {
     .portfolio-list {
-        width: 90%;
+        width: 100%;
         padding-top: 40%;
-        margin: 2%;
+        margin: 1.25rem;
     }
 }
