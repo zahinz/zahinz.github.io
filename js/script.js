@@ -114,4 +114,39 @@ function darkMode() {
     }
 }
 
+// sidenav display
+
+sidenavBar = document.querySelector('.sidenav')
+sidenavStatus = false
+
+function displaySidenav() {
+    switch (sidenavStatus) {
+        case false:
+            console.log(sidenavStatus);
+            sidenavBar.style.transform = 'translateX(0%)'
+            sidenavStatus = true
+            console.log(sidenavStatus);
+            break;
+        case true:
+            console.log(sidenavStatus);
+            sidenavBar.style.transform = 'translateX(-100%)'
+            sidenavStatus = false
+            console.log(sidenavStatus);
+            break;
+    }
+}
+
+window.addEventListener('resize', reportWindowSize)
+function reportWindowSize(e) {
+    if (window.innerWidth >= 700){
+        sidenavBar.style.transform = 'translateX(0%)'
+        sidenavStatus = true
+    }
+    else if (window.innerWidth <= 700){
+        sidenavBar.style.transform = 'translateX(-100%)'
+        sidenavStatus = false
+    }
+}
+
+
 

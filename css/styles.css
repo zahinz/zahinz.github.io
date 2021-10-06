@@ -2,7 +2,7 @@
     margin: 0; 
     padding: 0; 
     box-sizing: border-box;
-    transition: all 200ms;
+    /* transition: all 200ms; */
 }
 
 :root {
@@ -31,7 +31,7 @@ body {
     flex-direction: column;
     align-items: center;
     transition: all 300ms;
-    background-color: white;
+    background-color: #1c1026;
     line-height: unset;
 }
 
@@ -50,6 +50,17 @@ ul {
     list-style: none;
 }
 
+a {
+    color: unset;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+
+a:hover {
+    color: unset;
+}
+
 .main-container {
     max-width: 950px;
     margin: 0 1.25rem
@@ -66,6 +77,7 @@ ul {
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /*****************************/
@@ -488,7 +500,7 @@ left: calc(100% - 2rem);
 
 
 /***********************************/
-/* ? MOBILE RESPONSIVENESS (390px) */
+/* ? MOBILE RESPONSIVENESS (600px) */
 /***********************************/
 
 @media (max-width: 600px) {
