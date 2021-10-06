@@ -164,10 +164,11 @@ nav .topnav .content i {
 
     nav .sidenav {
         height: calc(100% - 50px);
-        width: 300px;
+        width: 255px;
         transform: translateX(-100%);
         top: unset;
         bottom: 0;
+        padding: 30px;
     }
 
     nav .topnav {
