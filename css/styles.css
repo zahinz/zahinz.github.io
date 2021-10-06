@@ -128,12 +128,11 @@ p {
 .dark-border {
     padding: 40px;
     border: 1px solid #c2c2c2;
-    border-radius: 20px;
 }
 
 .no-dark-border {
     padding: 40px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     background-color: var(--ter-color);
     border: 1px solid var(--ter-color);
 }
@@ -313,6 +312,7 @@ left: calc(100% - 2rem);
 
 #section4 .work-container {
     margin-top: 30px;
+    border-radius: 20px;
 }
 
 .work-container .header {
@@ -354,6 +354,7 @@ left: calc(100% - 2rem);
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    border-radius: 20px;
 }
 
 
@@ -407,6 +408,7 @@ left: calc(100% - 2rem);
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    border-radius: 20px;
 }
 
 #section6 .testimonials-container .testimonial-list {
@@ -453,6 +455,7 @@ left: calc(100% - 2rem);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 20px;
 }
 
 #section7 .connect-container .connect-list i {
