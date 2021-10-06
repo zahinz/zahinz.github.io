@@ -1,16 +1,38 @@
+.dark-mode-switch {
+    height: 75px;
+    width: 85px;
+    position: fixed;
+    top: initial;
+    right: initial;
+    bottom: 20px;
+    left: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(0);
+}    
+
+input[type="checkbox"].switch-1 {
+    transform: rotate(0deg);
+}
+
+/*******************************/
+
+
 nav .sidenav {
-    width: 300px;
+    width: 350px;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
     background-color: #0f0717;
-}
-
-nav .dark-border {
     border-top: none;
     border-left: none;
     border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 nav .content p:nth-child(1) {
@@ -19,6 +41,50 @@ nav .content p:nth-child(1) {
 }
 
 nav .content p:nth-child(2) {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 0.9rem;
 }
+
+nav .content .btn-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+nav .content .btn-container .my-btn {
+    padding: 9px 18px;
+    font-size: 0.9rem;
+}
+
+nav .content .btn-container .my-btn:nth-child(2) {
+    margin-left: 10px;
+    background-color: var(--pri-color);
+    border-color: var(--pri-color);
+}
+
+nav .content .portfolio-container {
+    margin-top: 80px;
+}
+
+nav .content .portfolio-container .portfolio-type {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+/***********************************/
+/* ? MOBILE RESPONSIVENESS (390px) */
+/***********************************/
+
+@media (max-width: 600px) {
+    .dark-border {
+        padding: 40px;
+    }
+}
+
+

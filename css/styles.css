@@ -46,6 +46,10 @@ hr {
     border-top: 1px solid #c2c2c2;
 }
 
+ul {
+    list-style: none;
+}
+
 .main-container {
     max-width: 950px;
     margin: 0 1.25rem
@@ -71,6 +75,10 @@ hr {
 p {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+ol, ul {
+    padding-left: 0;
 }
 
 .carousel-indicators {
@@ -460,6 +468,19 @@ left: calc(100% - 2rem);
 
 #section7 .connect-container .connect-list i {
     font-size: 2rem;
+}
+
+
+
+/****************************************/
+/* ? BIG SCREEN RESPONSIVENESS (1400px) */
+/****************************************/
+
+@media (min-width: 1400px) {
+    .hero-title {
+        font-size: 16rem;
+        line-height: 216px;
+    }
 }
 
 
