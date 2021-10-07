@@ -33,6 +33,9 @@
     <!-- BOOTSTRAP ICONS PACK -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
+    <!-- FONT AWESOME PACK -->
+    <script src="https://kit.fontawesome.com/8ff303108c.js" crossorigin="anonymous"></script>
+
 
     <!-- CSS STYLE -->
     <link rel="stylesheet" href="css/styles.css">
@@ -68,8 +71,8 @@
         </div>
 
         <!-- TOP BAR -->
-        <nav>
-            <div class="topnav">
+        <nav id="topNav">
+            <div class="topnav dark-border">
                 <div class="content">
                     <p class="main-subtitle"></p>
                     <i onclick="displaySidenav()" class="bi bi-list"></i>
@@ -78,15 +81,19 @@
         </nav>
 
         <!-- SIDE BAR -->
-        <nav>
+        <nav id="sideNav">
             <div class="sidenav dark-border">
                 <div class="content">
                     <p class="main-subtitle color-title">👨‍💻</p>
                     <p class="main-subtitle color-title">development library</p>
                     <p class="main-body color-body">Designed and coded by Zahinz.</p>
                     <div class="btn-container">
-                        <div class="dark-border my-btn color-title">Website</div>
-                        <div class="my-btn">Contact</div>
+                        <a href="/index.html">
+                            <div class="dark-border my-btn color-title">Website</div>
+                        </a>
+                        <a href="#">
+                            <div class="my-btn">Contact</div>
+                        </a>
                     </div>
                     <div class="language-container">
                         <p class="color-title main-body">Project language</p>
@@ -99,14 +106,12 @@
                 </div>
             </div>
         </nav>
-        <div class="porfolio-container">
+        <div class="porfolio-container" onclick="touchSidenav()">
             <div class="portfolio-holder">
-                <div class="portfolio-list dark-border"></div>
-                <div class="portfolio-list dark-border"></div>
-                <div class="portfolio-list dark-border"></div>
-                <div class="portfolio-list dark-border"></div>
-                <div class="portfolio-list dark-border"></div>
-                <div class="portfolio-list dark-border"></div>
+
+                <!-- DYNAMIC CONTENT START HERE -->
+
+                
             </div>
         </div>
     </div>

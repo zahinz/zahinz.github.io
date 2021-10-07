@@ -179,7 +179,7 @@ ol, ul {
     align-items: center;
     justify-content: space-between;
     transform: translateY(-55%);
-    z-index: 100;
+    z-index: 1000;
 }
 
 input[type="checkbox"].switch-1 {

@@ -50,12 +50,13 @@ nav .sidenav .content .btn-container {
     margin-top: 40px;
 }
 
+
 nav .sidenav .content .btn-container .my-btn {
     padding: 9px 18px;
     font-size: 0.9rem;
 }
 
-nav .sidenav .content .btn-container .my-btn:nth-child(2) {
+nav .sidenav .content .btn-container a:nth-child(2) .my-btn {
     margin-left: 10px;
     background-color: var(--pri-color);
     border-color: var(--pri-color);
@@ -71,7 +72,11 @@ nav .sidenav .content .language-container .language-type {
 }
 
 
-/* SIDENAV */
+/* TOPNAV */
+#topNav .dark-border {
+    background-color: white !important;
+    padding: 0;
+}
 nav .topnav {
     position: fixed;
     top: 0;
@@ -128,20 +133,95 @@ nav .topnav .content i {
 }
 
 .portfolio-list {
-    width: 43%;
-    padding-top: 30%;
+    width: 45%;
+    padding-top: 25%;
     border-radius: 10px;
-    margin: 1.5%;
+    margin: 1%;
+    position: relative;
+    overflow: hidden;
+}
+
+.porfolio-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0;
+    transition: opacity 200ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.porfolio-cover:hover {
+    opacity: 1;
+}
+
+.porfolio-cover a {
+    height: unset;
+    width: unset;
+}
+
+.porfolio-cover .my-btn {
+    border: none;
+}
+
+.porfolio-cover a:nth-child(1) .my-btn {
+    border-radius: 10px;
+    background-color: #1c1026;
+    padding: 10px 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.porfolio-cover .my-btn i {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 7px;
+}
+
+.porfolio-cover a:nth-child(2) .my-btn {
+    padding: 15px 15px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #1c1026;
+}
+
+.portfolio-list .portfolio-gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.portfolio-list .porfolio-cover .technology {
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
 }
 
 
 
 
+
+
+
+
 /***********************************/
-/* ? MOBILE RESPONSIVENESS (800px) */
+/* ? MOBILE RESPONSIVENESS (850px) */
 /***********************************/
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .portfolio-list {
         width: 90%;
         padding-top: 50%;
