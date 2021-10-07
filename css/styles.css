@@ -315,6 +315,8 @@ left: calc(100% - 2rem);
 
 .uiuxeverydays button {
     margin-top: 40px;
+    background-color: white;
+    color: #3B4250;
 }
 
 
@@ -333,6 +335,7 @@ left: calc(100% - 2rem);
 #section4 .work-container {
     margin-top: 30px;
     border-radius: 20px;
+    transition: all 100ms;
 }
 
 .work-container .header {
@@ -347,6 +350,16 @@ left: calc(100% - 2rem);
 }
 .work-container .header .text .main-subtitle {
     margin-bottom: 15px;
+}
+
+.carousel-inner .work-image {
+    width: unset;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    max-height: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    max-width: 100%;
 }
 
 .year {
@@ -438,7 +451,8 @@ left: calc(100% - 2rem);
 }
 
 #section6 .testimonials-container .testimonial-list img {
-    width: 60%;
+    width: 30%;
+    padding: 0 5% 0 7%;
 }
 
 #section6 .testimonials-container .testimonial-list .text {
@@ -476,6 +490,7 @@ left: calc(100% - 2rem);
     align-items: center;
     justify-content: space-between;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 #section7 .connect-container .connect-list i {
@@ -625,6 +640,15 @@ left: calc(100% - 2rem);
         margin-top: 20px;
     }
 
+    .carousel-inner .work-image {
+        width: unset;
+        margin: 0 auto;
+        max-height: 400px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        max-width: 80%;
+    }
+
 
     /* SECTION 5 */
 
@@ -653,7 +677,7 @@ left: calc(100% - 2rem);
     }
 
     #section6 .testimonials-container .testimonial-list img {
-        width: 70%;
+        width: 50%;
     }
 
 

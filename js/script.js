@@ -187,6 +187,10 @@ function darkMode() {
 }
 
 
+function clickButton(link) {
+    window.open(link, "_blank");
+}
+
 
 // ? sidenav display functionality 
 
@@ -251,26 +255,7 @@ function shuffle(array) {
 shuffle(portfolioContent)
 
 for (let i = 0; i < portfolioContent.length; i++) {
-//     portfolioHolder.innerHTML += 
-    // `
-    // <div class="portfolio-list dark-border">
-    // <div class="portfolio-gif" style="background-image: url(${portfolioContent[i].backgroundImage})"></div>
-    // <div class="porfolio-cover">
-    //     <a href="${portfolioContent[i].githubLink}" target="blank">
-    //         <button class="my-btn">
-    //             <i class="bi bi-github"></i>
-    //             <p>Code repo</p>
-    //         </button>
-    //     </a>
-    //     <a href="${portfolioContent[i].webLink}" target="blank">
-    //         <button class="my-btn">view project</button>
-    //     </a>
-    //     <div class="technology">
-    //         ${printLogo(portfolioContent[i].technology)}
-    //     </div>
-    // </div>
-    // </div>
-    // `
+
     newPortfolioList = document.createElement('div')
     newPortfolioList.classList.add('portfolio-list', 'dark-border')
 
@@ -319,25 +304,3 @@ for (let i = 0; i < portfolioContent.length; i++) {
     portfolioHolder.append(newPortfolioList)
 
 }
-
-function shuffle(array) {
-    let currentIndex = array.length,  randomIndex;
-  
-    // While there remain elements to shuffle...
-    while (currentIndex != 0) {
-  
-      // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-  
-      // And swap it with the current element.
-      [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex], array[currentIndex]];
-    }
-  
-    return array;
-}
-
-
-
-
