@@ -317,6 +317,26 @@ left: calc(100% - 2rem);
     margin-top: 40px;
     background-color: white;
     color: #3B4250;
+    animation: pulse-white 1s infinite;
+
+}
+
+  
+@keyframes pulse-white {
+0% {
+    /* transform: scale(0.95); */
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+}
+
+70% {
+    /* transform: scale(1); */
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+}
+
+100% {
+    /* transform: scale(0.95); */
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+}
 }
 
 
@@ -496,6 +516,13 @@ left: calc(100% - 2rem);
 #section7 .connect-container .connect-list i {
     font-size: 2rem;
 }
+
+#section7 .connect-container .no-dark-border {
+    animation: pulse-white 1s infinite;
+}
+
+
+
 
 
 
