@@ -26,56 +26,56 @@ api = '<i class="fas fa-cogs"></i>'
 portfolioContent = [
     {
         // music player
-        backgroundImage : '/assets/UIUXeverydays/music-player.gif',
+        backgroundImage : 'assets/UIUXeverydays/music-player.gif',
         githubLink : 'https://github.com/zahinz/SET-Day-9',
         webLink : 'https://zahinz.github.io/SET-Day-9/audio-player-challenge/index.html',
         technology: [html, css, js]
     },
     {
         // parallax mouse
-        backgroundImage : '/assets/UIUXeverydays/parallax-mouse.gif',
+        backgroundImage : 'assets/UIUXeverydays/parallax-mouse.gif',
         githubLink : 'https://github.com/zahinz/SET-Day-10',
         webLink : 'https://zahinz.github.io/SET-Day-10/challenge-2/index.html',
         technology: [html, css, js]
     },
     {
         // piano
-        backgroundImage : '/assets/UIUXeverydays/piano.gif',
+        backgroundImage : 'assets/UIUXeverydays/piano.gif',
         githubLink : 'https://github.com/zahinz/SET-Day-11',
         webLink : 'https://zahinz.github.io/SET-Day-11/piano/index.html',
         technology: [html, css, js]
     },
     {
         // to-do list
-        backgroundImage : '/assets/UIUXeverydays/to-do-list.gif',
+        backgroundImage : 'assets/UIUXeverydays/to-do-list.gif',
         githubLink : 'https://github.com/zahinz/SET-Day-12',
         webLink : 'https://zahinz.github.io/SET-Day-12/to-do-task/index.html',
         technology: [html, css, js]
     },
     {
         // video player
-        backgroundImage : '/assets/UIUXeverydays/video-player.gif',
+        backgroundImage : 'assets/UIUXeverydays/video-player.gif',
         githubLink : 'https://github.com/zahinz/SET-Day-8',
         webLink : 'https://zahinz.github.io/SET-Day-8/video-player/index.html',
         technology: [html, css, js]
     },
     {
         // chat app
-        backgroundImage : '/assets/UIUXeverydays/chat-app.gif',
+        backgroundImage : 'assets/UIUXeverydays/chat-app.gif',
         githubLink : 'https://github.com/zahinz/SET-Day-13',
         webLink : 'https://zahinz.github.io/SET-Day-13/chat-app/index.html',
         technology: [html, css, js, database]
     },
     {
         // weather API
-        backgroundImage : '/assets/UIUXeverydays/weather-API.gif',
+        backgroundImage : 'assets/UIUXeverydays/weather-API.gif',
         githubLink : 'https://github.com/zahinz/SET-Day-14',
         webLink : 'https://zahinz.github.io/SET-Day-14/weather-apps/index.html',
         technology: [html, css, js, api]
     },
     {
         // parallax scroll
-        backgroundImage : '/assets/UIUXeverydays/parallax-scroll.gif',
+        backgroundImage : 'assets/UIUXeverydays/parallax-scroll.gif',
         githubLink : 'https://github.com/zahinz/SET-Day-10',
         webLink : 'https://zahinz.github.io/SET-Day-10/challenge-1/index.html',
         technology: [html, css, js]
