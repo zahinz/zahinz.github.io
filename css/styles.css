@@ -33,6 +33,7 @@ body {
     transition: all 300ms;
     background-color: #1c1026;
     line-height: unset;
+    scroll-behavior: smooth;
 }
 
 img {
